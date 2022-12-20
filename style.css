@@ -1,0 +1,39 @@
+body{
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 56, 56);
+    height: 100vh;
+    
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(226, 16, 16);
+    
+}
+
+#clock{
+    
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+span{
+    font-size: 20px;
+    font-weight: 700;
+    }
+
+    #ampm{
+        margin-left: 10px;
+        color: green;
+    }
+
+    
+    @media(max-width:600px){
+       span{
+        font-size: 2rem;
+       }
+    }
